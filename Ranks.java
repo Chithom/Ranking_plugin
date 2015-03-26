@@ -23,8 +23,7 @@ public class Ranks extends JavaPlugin {
 		
 	
 		if (cmd.getName().equalsIgnoreCase("ranks")) { 
-			sender.sendMessage(Color.AQUA + "-=SolarCraft Prison Ranks=-"
-		+ "\n" + Color.GRAY + "[" + Color.SILVER + "A" + Color.GRAY + "]" + Color.ORANGE + "$1000");
+			sender.sendMessage(Color.AQUA + "-=SolarCraft Prison Ranks=-");
 			return true;	
 		}
 		return false;
